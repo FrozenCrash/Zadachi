@@ -4,11 +4,11 @@ c=5
 h=6
 
 def p(a, b, c)
-(a+b+c)/2
+(a+b+c)/2 
 end
 
 def s(p, a, b, c)
-Math.sqrt(p*(p-a)*(p-b)*(p-c))
+Math.sqrt(p*(p-a)*(p-b)*(p-c)) # square root
 end
 
 def v(s, h)
