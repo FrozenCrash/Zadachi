@@ -9,7 +9,7 @@ v = Math::PI*h/ 3*(r2**2+ r1**2+r2*r1)
 def v(h, r1, r2)
 Math:pi*h/3*(r2**2+r1**2+r2*r1)
 end
-s = Math::PI*3*(r2+r2)+Math::PI*(r2**2+r1**2)
+s = Math::PI*3*(r2+r2)+Math::PI*(r2**2+r1**2) #math PI
 def s(l, r1, r2)
 math::pi*3*(r2+r1)+math::pi*(r2**2+r1**2)
 end
