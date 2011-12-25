@@ -1,0 +1,13 @@
+r1=2.0
+r2=4.0
+r3=8.0
+
+puts 1/r1
+puts 1/r2
+puts 1/r3
+
+def r0(r1=2.0, r2=4.0, r3=8.0)
+  r0 = 1/r1 + 1/r2 + 1/r3
+end
+puts r0
+puts 1/r0
