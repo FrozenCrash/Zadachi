@@ -2,15 +2,22 @@ def b(a, c)
   (a - c)**2
 end
 
+def p(a, b, c)
+  (a+b+c)/2
+end
+
+def r(p, a, c, b)
+  Math.sqrt(((p-a)*(p-b)*(p-c))/p)
+end
+
 a = 3
 c = 5
 
+
 my_b = b(a, c)
+my_p = p(a, my_b, c)
+my_r = r(my_p, a, c, my_b)
 
 puts my_b
-
-def p(a, my_b, c) #TROUBLE don't work and dont wark when i write my_b => b    why ?
-  (a+my_b+c)/2
-end
-
-puts p
+puts my_p
+puts my_r
