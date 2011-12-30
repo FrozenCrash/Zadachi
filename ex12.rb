@@ -2,8 +2,8 @@ def x
   Math.sqrt(2)/2
 end
 
-def s(a, b, my_x)
-  1/2*(a+b)/my_x
+def s(a, b, x)
+  ((a+b)/2) * ((a-b)/2*x)
 end
 
 a = 20.0
